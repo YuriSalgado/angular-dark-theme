@@ -1,6 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
-:root {
+body {
   --text-color: #333;
   --text-color-toolbar: #fff;
   --background-color-toolbar: #1976d2;
+  --highlight-color: #1976d2;
+}
+body.light {
+  --text-color: #333;
+  --text-color-toolbar: #fff;
+  --background-color-toolbar: #39ace7;
+  --highlight-color: #39ace7;
+}
+body.dark {
+  --text-color: #333;
+  --text-color-toolbar: #fff;
+  --background-color-toolbar: #192428;
+  --highlight-color: #192428;
 }
