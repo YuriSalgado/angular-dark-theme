@@ -1,19 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
+html,
 body {
-  --text-color: #333;
-  --text-color-toolbar: #fff;
-  --background-color-toolbar: #1976d2;
-  --highlight-color: #1976d2;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  font-family: 'Muli';
 }
-body.light {
-  --text-color: #333;
-  --text-color-toolbar: #fff;
-  --background-color-toolbar: #39ace7;
-  --highlight-color: #39ace7;
+body {
+  --txt-color: #222222;
+  --bg-color: #ffffff;
+  --btn-txt-color: #ffffff;
+  --btn-bg-color: #0b58a0;
 }
 body.dark {
-  --text-color: #333;
-  --text-color-toolbar: #fff;
-  --background-color-toolbar: #192428;
-  --highlight-color: #192428;
+  --txt-color: #eeeeee;
+  --bg-color: #252222;
+  --btn-txt-color: #2e2b2b;
+  --btn-bg-color: #14d3c3;
 }

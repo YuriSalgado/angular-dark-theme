@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-enum THEMES { "light", "dark"};
+enum THEMES { "dark" };
   
 @Component({
   selector: 'app-root',
@@ -14,9 +14,6 @@ export class AppComponent {
   setThemeClass(theme:THEMES) {
     const bodyTag = document.body;
 
-    for (const theme in this.themes) {
-      bodyTag.classList.remove(theme);      
-    }
-    bodyTag.classList.add(THEMES[theme]);
+    bodyTag.classList.toggle(THEMES[theme]);
   }
 }

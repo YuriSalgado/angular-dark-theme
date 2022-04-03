@@ -1,6 +1,12 @@
 # AngularDarkTheme
 
-Its a basically light/dark theme using css vars. This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.0.
+Its a basically light/dark theme using css vars.
+
+- [x] Ratio Contrast
+- [x] SCSS
+- [x] Typescript
+- This project was generated with [Angular CLI](https://github.com/angular/angular-cli)
+- Version 13.3.0.
 
 ## Development server
 
